@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Zalvia",
+		"image": "/assets/project1.jpg",
+		"category": "Website Design"
+	},
+	{
+		"name": "WorkX",
+		"image": "/assets/project2.jpg",
+		"category": "App Design"
+	},
+	{
+		"name": "Black UI",
+		"image": "/assets/project3.jpg",
+		"category": "App Design"
+	}
+]

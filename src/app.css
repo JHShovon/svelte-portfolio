@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+	/* Fonts Family */
+	--default-font-family: 'Lato', sans-serif;
+
+	/* Color */
+	--color-dark: #1e1e1e;
+	--color-primary: #fd6f00;
+	--color-primary-dark: #e60026;
+	--color-gradient-primary: linear-gradient(
+		90deg,
+		rgba(253, 111, 0, 1) 0%,
+		rgba(228, 100, 0, 1) 100%
+	);
+	--color-white-light: #fefefe;
+	--color-white-dark: #959595;
+	--color-white-dark-medium: #707070;
+	--color-white-darker: #575757;
+	--container-2xl: 1280px;
+}
+
+html {
+	@apply scroll-smooth;
+}
+
+body {
+	@apply text-white-dark bg-dark text-xl;
+}
+
+.section-container {
+	@apply container mx-auto px-5;
+}
+
+.section-space {
+	@apply py-20 xl:py-28 2xl:py-40;
+}
+.section-space-top {
+	@apply pt-20 xl:pt-28 2xl:pt-40;
+}
+.section-space-bottom {
+	@apply pb-20 xl:pb-28 2xl:pb-40;
+}
