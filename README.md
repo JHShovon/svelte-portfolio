@@ -1,38 +1,125 @@
-# sv
+# 🚀 svelte-portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<div align="center">
 
-## Creating a project
+[![GitHub stars](https://img.shields.io/github/stars/JHShovon/svelte-portfolio?style=for-the-badge)](https://github.com/JHShovon/svelte-portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/JHShovon/svelte-portfolio?style=for-the-badge)](https://github.com/JHShovon/svelte-portfolio/network)
+[![GitHub issues](https://img.shields.io/github/issues/JHShovon/svelte-portfolio?style=for-the-badge)](https://github.com/JHShovon/svelte-portfolio/issues)
+[![GitHub license](https://img.shields.io/github/license/JHShovon/svelte-portfolio?style=for-the-badge)](LICENSE)
 
-If you're seeing this, you've probably already done this step. Congrats!
+**A sleek and modern portfolio website built with Svelte.**
 
-```bash
-# create a new project in the current directory
-npx sv create
+TODO: Add live demo link |
+TODO: Add documentation link
 
-# create a new project in my-app
-npx sv create my-app
+</div>
+
+## 📖 Overview
+
+This project is a personal portfolio website built using Svelte, a fast and efficient component-based framework.  It showcases projects, skills, and contact information in a clean and responsive design.  The goal is to provide a visually appealing and informative online presence for the developer.
+
+## ✨ Features
+
+-   **Responsive Design:** Adapts seamlessly to various screen sizes.
+-   **Project Showcase:**  Displays a portfolio of completed projects with descriptions and links.
+-   **Skills Section:** Highlights key technical skills with visual indicators.
+-   **Contact Form:**  Allows visitors to easily get in touch.
+-   **Clean and Modern UI:** Employs a visually appealing and contemporary design.
+
+## 🖥️ Screenshots
+
+TODO: Add actual screenshots
+TODO: Add mobile screenshots
+
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+[![Svelte](https://img.shields.io/badge/Svelte-ff3e00?logo=svelte&logoColor=white&style=for-the-badge)](https://svelte.dev/)
+[![Vite](https://img.shields.io/badge/vite-646ce4?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev/)
+
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+-   Node.js (version 16 or higher)
+-   npm (or yarn)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/JHShovon/svelte-portfolio.git
+    cd svelte-portfolio
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser:** Visit `http://localhost:5173`
+
+
+## 📁 Project Structure
+
+```
+svelte-portfolio/
+├── src/
+│   ├── App.svelte      
+│   ├── components/     # Reusable Svelte components
+│   └── routes/         # Application routes (pages)
+├── static/            # Static assets (images, etc.)
+├── svelte.config.js   # Svelte configuration
+├── vite.config.js     # Vite configuration
+└── package.json       # Project dependencies and scripts
 ```
 
-## Developing
+## ⚙️ Configuration
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+No specific configuration files beyond `package.json`, `svelte.config.js`, and `vite.config.js`.
 
-```bash
-npm run dev
+## 🔧 Development
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Available Scripts
 
-## Building
+| Command       | Description                               |
+|---------------|-------------------------------------------|
+| `npm run dev` | Starts the development server             |
+| `npm run build`| Creates a production build              |
+| `npm run preview`| Runs the preview server for the build     |
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+## 🧪 Testing
 
-You can preview the production build with `npm run preview`.
+TODO: Add testing information if applicable.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🚀 Deployment
+
+TODO: Add deployment instructions.
+
+
+## 🤝 Contributing
+
+TODO: Add contributing guidelines.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful!**
+
+Made with ❤️ by JHShovon
+
+</div>
